@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container,
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top right, lightblue, rgb(126, 58, 186));
+}
+#hours,
+#minutes,
+#seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid rgb(78, 118, 211);
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 6px;
+  color: rgb(101, 226, 76);
+  font-size: 2rem;
+}
+span {
+  font-size: 4rem;
+  color: rgb(188, 226, 84);
+}
